@@ -1,0 +1,76 @@
+/* Resetare implicită a marginilor și a padding-urilor */
+
+body,
+h1,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Aplicare font implicit */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Stilizare pentru elementele header */
+
+h1 {
+    color: #333;
+    /* Culorea textului */
+}
+
+
+/* Stilizare pentru paragrafe */
+
+p {
+    color: #666;
+}
+
+
+/* Stilizare pentru linii orizontale */
+
+hr {
+    border: 1px solid #ccc;
+    /* Linie orizontală subțire și gri */
+    margin: 20px 0;
+    /* Spațiu în jurul liniei orizontale */
+}
+
+
+/* Stilizare pentru listă neordonată */
+
+ul {
+    list-style-type: none;
+    /* Elimină stilul implicit al marcatorului */
+}
+
+
+/* Stilizare pentru elementele de listă */
+
+li {
+    color: #555;
+}
+
+
+/* Stilizare pentru legături */
+
+a {
+    color: #007BFF;
+    /* Culorea link-urilor */
+    text-decoration: none;
+    /* Elimină sublinierea implicită a link-urilor */
+}
+
+
+/* Stilizare pentru legături atunci când sunt hover-ate */
+
+a:hover {
+    text-decoration: underline;
+    /* Adaugă subliniere la hover */
+}
